@@ -37,12 +37,13 @@ class blackjack:
                 self.value[1] = 11
     def decision(self):
         distance = []
-        if self.value == [21,21]:
-            print("Congratulations, no further instructions will be given, you already won!")
-        elif (self.value == [11,11]) or (self.value == [10,10]):
-            print("Unless you cannot, consider a double down, you will most likely hit 21.")
-        else:
-             while self.value[0] < 14:
-                 print("Hit!")
-            
-                
+        while self.value[0] < 22:
+            if self.value[-1] == 21:
+                print("Congratulations, no further instructions will be given, you already won!")
+            elif (self.value == [11,11]) or (self.value == [10,10]):
+                print("Unless you cannot, consider a double down, you will most likely hit 21.")
+            elif self.value[1] > 14:
+                print("Hit")    
+                self.card = input("Enter the card that you have obtained now")
+                self.hand.append(self.card)
+                self.get_value()
