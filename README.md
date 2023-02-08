@@ -18,8 +18,14 @@ $$P_{(x)} = \frac{4m - n_{(x)}{}}{52m-N} $$
 
 m is the number of decks used in the blackjack game, while x is the card that you wish to obtain, n(x) expresses how many times the card has been dealt within the table and N is the total number of all the cards. 
 
-Each deck contains 4 copies of the same card, making a full total of 52 cards per deck.
+Each deck contains 4 copies of the same card, making a full total of 52 cards per deck. This formula goes for any card other than 10, for the latter it would be 16 since the deck contains 4 ranks of the kingdom hiearchy cards, all of which net a value of 10, occupying roughly a third of the deck.
 
 
 While I have no interesting music to share for today, [consider learning how to befriend spiders](https://www.youtube.com/watch?v=2uOA_ceFf4Q).
 A good year ago I had the theory that the fear we humans have towards insects is generated from their legs, the rapid manouvering of their limbs creates an artificial feeling that makes us appreciate them less, what if insects never had legs ?
+
+
+## 08/02/2023
+I ran into some errands today and I came up super late that it prevented me from cooking more lines than how much I was supposed to do, but just to give away what I plan to do:
+I simply plan to use a list for both the dealer and the player and loop over it to collect the sum of luck trafic using the formula above; next a comparison will process the decision making part of the code. 
+while on my road, I ran some blackjack games and did encounter something odd that led me to a new discovery: A loss is issued whenever the players draws into 21 after a successful hit while the dealer has already obtained a blackjack. This is news to me yet it won't change anything in regards to the code. I am however disappointed since this shows how the luck factor is prioritied over the result of a decision. [Tidal wave came by while I was writing this readme](https://www.youtube.com/watch?v=VSwD_-kKcyI)
