@@ -33,17 +33,36 @@ class blackjack:
             if (O_card != "Ace") or (O_card != "ace"):
                 self.O_value[0] = int(O_card)
             else:
-                self.value[0] = 1
-                self.value[1] = 11
+                self.O_value[0] = 1
+                self.O_value[1] = 11
+
     def decision(self):
-        distance = []
         while self.value[0] < 22:
             if self.value[-1] == 21:
                 print("Congratulations, no further instructions will be given, you already won!")
-            elif (self.value == [11,11]) or (self.value == [10,10]):
+            elif (self.value == [11, 11]) or (self.value == [10, 10]):
                 print("Unless you cannot, consider a double down, you will most likely hit 21.")
             elif self.value[1] > 14:
-                print("Hit")    
+                print("Hit")
                 self.card = input("Enter the card that you have obtained now")
                 self.hand.append(self.card)
                 self.get_value()
+    
+    def luck_computation(self):
+        i = 0
+        n = self.value[0]
+        O_n = self.O_value[0]
+        distance_to_21 = []
+        O_distance_to_21 = []
+        distances = 0
+        while n + i < 22:
+            distances = 21 - n - i
+            distance_to_21.append(distances)
+            distances = 0
+            distances = 11 - O_n - i 
+            O_distance_to_21.append(distances)
+            i += 1
+        
+        for luck in distances:
+            if self.hand[0] == distances[0] or
+            
