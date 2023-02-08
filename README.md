@@ -19,3 +19,5 @@ $$P_{(x)} = \frac{4m - n_{(x)}{}}{52m-N} $$
 m is the number of decks used in the blackjack game, while x is the card that you wish to obtain, n(x) expresses how many times the card has been dealt within the table and N is the total number of all the cards. 
 
 Each deck contains 4 copies of the same card, making a full total of 52 cards per deck.
+While I have no interesting music to share for today, [consider learning how to befriend spiders](https://www.youtube.com/watch?v=2uOA_ceFf4Q).
+A good year ago I had the theory that the fear we humans have towards insects is generated from their legs, the rapid manouvering of their limbs creates an artificial feeling that makes us appreciate them less, what if insects never had legs ?
