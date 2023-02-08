@@ -8,7 +8,7 @@ Because I noticed a pattern in my decision making, and because a person that I c
 into maxing out the profit (provided the cards are not cheated of course.)
 The decision making mechanism follows a logical algorithm that depends on some probability calculations. in the following paragraphs I will present the algorithm and further explain the ideas behind it.
 As of today, the core of the code contains only the structure of the hand and some basic decision suggestions given to the player.
-I highly recommend reading [this article, which explains in detail the probability computation further.](https://probability.infarom.ro/blackjack.html#:~:text=The%20total%20number%20of%20possible,of%20a%202%2Ddeck%20game.)
+I highly recommend reading [this article, which further explains in detail the probability computation.](https://probability.infarom.ro/blackjack.html#:~:text=The%20total%20number%20of%20possible,of%20a%202%2Ddeck%20game.)
 
 The article above recommends standing at 17, but I am more of a risk taker when it comes to such decisions and I would up things to 18, just because I like how the 8 looks like in comparison to 17.
 
