@@ -63,6 +63,13 @@ class blackjack:
             O_distance_to_21.append(distances)
             i += 1
         
-        for luck in distances:
-            if self.hand[0] == distances[0] or
+        for luck in distance_to_21:
+            if 10 in self.hand or 10 in self.O_hand:
+                chance = (16 - (self.hand.count(10) + self.O_hand.count(10))) / (52 - (len(self.O_hand) +len(self.hand)))
+            elif self.hand.count(self.hand[0]) > ############ I NEED TO MODIFY THIS BUT I AM TIRED
+            
+            else:
+                chance = (4 - distance_to_21.count(distance_to_21[luck]) ) / (52 - (len(self.O_hand) +len(self.hand)))
+            
+            
             
