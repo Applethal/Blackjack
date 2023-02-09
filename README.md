@@ -33,5 +33,7 @@ while on my road, I ran some blackjack games and did encounter something odd tha
 ## 09/02/2023 
 
 Small update that included the luck computation, it is not finished yet as it lacks the case where the dealer and the player share a given card. I lost my focus while trying to write the line that specifically adresses this.
-![This is an image](https://pbs.twimg.com/media/FoKPb_YWQAMviGQ?format=jpg&name=small)
+
+
+![This is an image that I fascinated about today.](https://pbs.twimg.com/media/FoKPb_YWQAMviGQ?format=jpg&name=small)
 
