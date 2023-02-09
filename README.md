@@ -29,3 +29,9 @@ A good year ago I had the theory that the fear we humans have towards insects is
 I ran into some errands today and I came up super late that it prevented me from cooking more lines than how much I was supposed to do, but just to give away what I plan to do:
 I simply plan to use a list for both the dealer and the player and loop over it to collect the sum of luck trafic using the formula above; next a comparison will process the decision making part of the code. 
 while on my road, I ran some blackjack games and did encounter something odd that led me to a new discovery: A loss is issued whenever the players draws into 21 after a successful hit while the dealer has already obtained a blackjack. This is news to me yet it won't change anything in regards to the code. I am however disappointed since this shows how the luck factor is prioritied over the result of a decision. [Tidal wave came by while I was writing this readme](https://www.youtube.com/watch?v=VSwD_-kKcyI)
+
+## 09/02/2023 
+
+Small update that included the luck computation, it is not finished yet as it lacks the case where the dealer and the player share a given card. I lost my focus while trying to write the line that specifically adresses this.
+![This is an image](https://pbs.twimg.com/media/FoKPb_YWQAMviGQ?format=jpg&name=small)
+
