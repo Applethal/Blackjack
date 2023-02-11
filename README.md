@@ -37,3 +37,6 @@ Small update that included the luck computation, it is not finished yet as it la
 
 ![This is an image that I fascinated about today.](https://pbs.twimg.com/media/FoKPb_YWQAMviGQ?format=jpg&name=small)
 
+
+## 11/02/2023 
+Today is the day!
