@@ -1,5 +1,5 @@
 # Blackjack
-Blackjack decision making assistant. Casinos shall hate you starting from today!
+Blackjack decision making assistant. *Casinos shall hate you starting from today!*
 <details>
   <summary>Click me for the a report on how things went when making this program</summary>
 
