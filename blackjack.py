@@ -2,39 +2,43 @@
 
 
 class blackjack:
-    def __init__(self, card, card_ace):
-        self.card = card
+    def __init__(self):
+
         self.value = [0, 0]
         self.O_value = [0, 0]
-        self.ace = card_ace
+
         self.hand = []
         self.O_hand = []
 
     def get_hand(self):
 
-        while len(self.hand) > 3:
+        while len(self.hand) < 2:
             self.card = input("Enter the cards that you have obtained in your first hand")
             self.hand.append(self.card)
-        while len(self.O_hand) > 2:
 
-            self.card = input("Enter the card that your opponent has")
-            self.O_hand.append(self.card)
+        self.card = input("Enter the card that your opponent has")
+        self.O_hand.append(self.card)
+        self.O_hand.append(10)
 
     def get_value(self):
+        self.value = [0, 0]
+        self.O_value = [0, 0]
         for card in self.hand:
-            if (card != "Ace") or (card != "ace"):
+            if "ace" not in card.lower():
                 self.value[0] += int(card)
                 self.value[1] += int(card)
             else:
                 self.value[0] += 1
                 self.value[1] += 11
-
+        print("Your value is  ", self.value)
         for O_card in self.O_hand:
             if (O_card != "Ace") or (O_card != "ace"):
-                self.O_value[0] = int(O_card)
+                self.O_value[0] = int(O_card) + 10
+                self.O_value[1] = 10 + int(O_card)
             else:
                 self.O_value[0] = 1
                 self.O_value[1] = 11
+        print("Your  Opponent's value is  ", self.O_value)
 
     def luck_computation(self):
         i = 0
@@ -47,7 +51,7 @@ class blackjack:
             distances = 21 - n - i
             distance_to_21.append(distances)
             distances = 0
-            distances = 11 - O_n - i
+            distances = 21 - O_n - i
             O_distance_to_21.append(distances)
             i += 1
 
@@ -72,14 +76,22 @@ class blackjack:
                                  self.O_hand.count(luck_d))) / (52 - (len(self.O_hand) + len(self.hand)))
 
             sum_chances_d += chance_d
+        print(sum_chances)
+        print(sum_chances_d)
+        print(distance_to_21)
+        print(O_distance_to_21)
         return sum_chances_d, sum_chances
 
     def decision(self):
         while self.value[0] < 22:
             if self.value[-1] == 21:
                 print("Congratulations, no further instructions will be given, you already won!")
+                break
             elif (self.value == [11, 11]) or (self.value == [10, 10]):
                 print("Unless you cannot, consider a double down, you will most likely hit 21.")
+                self.card = input("Enter the card that you have obtained now")
+                self.hand.append(self.card)
+                self.get_value()
             elif self.value[1] > 12:
                 v1, v2 = self.luck_computation()
 
@@ -90,3 +102,20 @@ class blackjack:
                     self.get_value()
                 else:
                     print("Hitting is not advised in this case, Hold it!")
+                    break
+            else:
+                print("Hit!")
+                self.card = input("Enter the card that you have obtained now")
+                self.hand.append(self.card)
+                self.get_value()
+
+
+def main():
+    gamble = blackjack()
+    gamble.get_hand()
+    gamble.get_value()
+    gamble.luck_computation()
+    gamble.decision()
+
+
+main()
