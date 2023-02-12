@@ -58,7 +58,7 @@ The classic blackjack deck contains the following cards:
 Each card has 4 copies, their values match the number shown on them, while the ace card mirrors a doublette of +1 and +11. There are 16 cards that can net the player a 10, making it a case that about at least once each 3 runs. Using the formulas from [Catalin Barboianu's book](https://www.amazon.de/-/en/Catalin-Barboianu/dp/9738752035) I made this python script that allows the user in some specific cases to decide on whether a hit or hold should be processed after performing a luck calculation comparison between the dealer and their hand. Because the dealer's second card is never shown, it will be assumed that he has a card whose value starts from 8.
 
 # How to use the program ?
-Just run it and follow its instructions, of course python should be installed on your windows machine, that is all what you need. 
+Just run it and follow its instructions, of course python should be installed on your windows machine, that is all what you need. The luck comparison simply sums up over the chance of all the cards required for you to get closer to 21 and compares it with the dealer's chance, then if the chances of busting are low, a hit will be suggested.
 
 ## What's next ? 
 Fixing the things that I have overlooked, for that I would require more tests and eventually an issues report by anyone who comes across the issues, you know what to do!
