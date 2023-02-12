@@ -1,8 +1,9 @@
 # Blackjack
-Blackjack decision making assistant
+Blackjack decision making assistant. Casinos shall hate you starting from today!
 <details>
   <summary>Click me for the a report on how things went when making this program</summary>
-## 07/02/2023
+
+  ## 07/02/2023
 
 Hello, a weekend ago I had some blackjack runs with a friend. Blackjack is the least luck based casino game I ever could play, as the consequences of your skills influence the output more than the luck factor.
 Because I noticed a pattern in my decision making, and because a person that I care about wanted to try blackjack out; I decided to make this python code that would assist anyone, including myself in the future in case I forget the rules,
@@ -43,4 +44,12 @@ Small update that included the luck computation, it is not finished yet as it la
 Today is the day!
 Fixed some issues, coded the execution. Apparently there will be more fixes to come, hopefully I will be able to fix them all by tomorrow, afterwards this readme file will get polished. I still need to fix an issue where the opponent always gets a hand value of 20, making the program advising you always against hitting unless you hit a blackjack of course, which is a very rare occurance. I always thought that I would be able to do all of this within one full day, though I am super happy with the results, I hated how I had to borrow the formula from an article instead of coming up with my own and the fact that I have spent only up to 20 minutes aprox. every day instead of hyper focusing, but that got me thinking: why not design a GUI for this ? Sure, once I learn how to manage it!
 While doing all of this [Jiro Inagaki 's music came along on spotify, I can safetly recommend it to anyone!](https://www.youtube.com/watch?v=kjxxVkSd0XA)
+  
+## 12/02/2023
+All lines fixed! the program is ready to be used by anyone, I am happy to announce this. Just one small change though: I made it so that the calculation assumes that the dealer always has a 7, I ran about 50 games and on average the dealer had 10's, 8's and 7's and I decided to go for the 7th.
+  
 </details>
+
+Blackjack is played
+
+
