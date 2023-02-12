@@ -109,6 +109,11 @@ class blackjack:
                 else:
                     print("Hitting is not advised in this case, Hold it!")
                     break
+            else:
+                print("Hit!!!!")
+                self.card = input("Enter the card that you have obtained now")
+                self.hand.append(self.card)
+                self.get_value()
 
 
 def main():
