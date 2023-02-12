@@ -55,14 +55,14 @@ The classic blackjack deck contains the following cards:
 
 ![Source:pngwing com](https://user-images.githubusercontent.com/114657050/218333201-27716d2f-aeb4-4b25-bfd6-aa246c653ded.png)
 
-Each card has 4 copies, their values match the number shown on them, while the ace card mirrors a doublette of +1 and +11. There are 16 cards that can net the player a 10, making it a case that about at least once each 3 runs. Using the formulas from [Catalin Barboianu's book](https://www.amazon.de/-/en/Catalin-Barboianu/dp/9738752035) I made this python script that allows the user in some specific cases to decide on whether a hit or hold should be processed after performing a luck calculation comparison between the dealer and their hand. Because the dealer's second card is never shown, it will be assumed that he has a card whose value starts from 8.
+Each card has 4 copies, their values match the number shown on them, while the ace card mirrors a doublette of +1 and +11. There are 16 cards that can net the player a 10, making it a case that about at least once each 3 runs. Using the formulas from [Catalin Barboianu's book](https://www.amazon.de/-/en/Catalin-Barboianu/dp/9738752035) I made this python script that allows the user in some specific cases to decide on whether a hit or hold should be processed after performing a luck calculation comparison between the dealer and their hand. Because the dealer's second card is never shown, it will be assumed that he has a card whose value starts from 8. Although there are lots of strategies when it comes to playing in an optimal manner, most of them depend on the coins/money parameter, which is absent in this project. Maybe an update will happen where I incorporate these.
 
 # How to use the program ?
 Just run it and follow its instructions, of course python should be installed on your windows machine, that is all what you need. The luck comparison simply sums up over the chance of all the cards required for you to get closer to 21 and compares it with the dealer's chance, then if the chances of busting are low, a hit will be suggested.
 
 ## What's next ? 
 Fixing the things that I have overlooked, for that I would require more tests and eventually an issues report by anyone who comes across the issues, you know what to do!
-I aim to also consider learning how to make a UI just to design one for this program. While writing this paragraph,[Wishing Ain't No Sin came up on my music player.](https://www.youtube.com/watch?v=S2-kas5e_vU) I am proud of how this went at the end, it took one week to build all of this.
+I aim to also consider learning how to make a UI just to design one for this program. While writing this paragraph,[Wishing Ain't No Sin by Billy Momo came up on my music player.](https://www.youtube.com/watch?v=S2-kas5e_vU) I am proud of how this went at the end, it took one week to build all of this.
 
 
 
