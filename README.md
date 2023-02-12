@@ -46,10 +46,16 @@ Fixed some issues, coded the execution. Apparently there will be more fixes to c
 While doing all of this [Jiro Inagaki 's music came along on spotify, I can safetly recommend it to anyone!](https://www.youtube.com/watch?v=kjxxVkSd0XA)
   
 ## 12/02/2023
-All lines fixed! the program is ready to be used by anyone, I am happy to announce this. Just one small change though: I made it so that the calculation assumes that the dealer always has a 7, I ran about 50 games and on average the dealer had 10's, 8's and 7's and I decided to go for the 7th.
+All lines fixed! the program is ready to be used by anyone, I am happy to announce this. Just one small change though: I made it so that the calculation assumes that the dealer always has a 7, I ran about 50 games and on average the dealer had 10's, 8's and 7's and I decided to go for the 8th to balance the numbers and compensate the decision making part.
   
 </details>
 
-Blackjack is played
+Blackjack is a card based game where the goal of each player is to obtain a hand of cards with a total value that excceeds everyone else's hands while also be on the edge of a value totalling to 21. Each player starts with 2 cards and is given the option to either obtain a new card or to express their current satisfaction by holding.
+The classic blackjack deck contains the following cards:
+
+![Source:pngwing com](https://user-images.githubusercontent.com/114657050/218333201-27716d2f-aeb4-4b25-bfd6-aa246c653ded.png)
+
+Each card has 4 copies, their values match the number shown on them, while the ace card mirrors a doublette of +1 and +11
+
 
 
