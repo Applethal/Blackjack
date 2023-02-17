@@ -59,6 +59,7 @@ Each card has 4 copies, their values match the number shown on them, while the a
 
 # How to use the program ?
 Just run it and follow its instructions, of course python should be installed on your windows machine, that is all what you need. The luck comparison simply sums up over the chance of all the cards required for you to get closer to 21 and compares it with the dealer's chance, then if the chances of busting are low, a hit will be suggested.
+The values are output through a doublet for the sake of being consistant with the calculations in case someone draws an Ace.
 
 ## What's next ? 
 Fixing the things that I have overlooked, for that I would require more tests and eventually an issues report by anyone who comes across the issues, you know what to do!
