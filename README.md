@@ -68,5 +68,5 @@ I aim to also consider learning how to make a UI just to design one for this pro
 
 ## 17.02.2023
 
-I conjured a very small update to the code: I decided to hide the values of the opponent completly from the user's sight to avoid potential confusions, the calculations however will conduct as normal always.
+I have conjured a very small update to the code: I decided to hide the values of the opponent completly from the user's sight to avoid potential confusions, the calculations however will conduct as normal always.
 
