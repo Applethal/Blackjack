@@ -29,7 +29,7 @@ class blackjack:
             else:
                 self.value[0] += 1
                 self.value[1] += 11
-        print("Your value is  ", self.value)
+        
         for card in self.O_hand:
             if "ace" not in card.lower():
                 self.O_value[0] = int(card) + 8
