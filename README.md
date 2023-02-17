@@ -66,5 +66,7 @@ Fixing the things that I have overlooked, for that I would require more tests an
 I aim to also consider learning how to make a UI just to design one for this program. While writing this paragraph,[Wishing Ain't No Sin by Billy Momo came up on my music player.](https://www.youtube.com/watch?v=S2-kas5e_vU) I am proud of how this went at the end, it took one week to build all of this.
 
 
+## 17.02.2023
 
+I conjured a very small update to the code: I decided to hide the values of the opponent completly from the user's sight to avoid potential confusions, the calculations however will conduct as normal always.
 
