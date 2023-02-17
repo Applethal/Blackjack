@@ -37,7 +37,7 @@ class blackjack:
             else:
                 self.O_value[0] = 1 + 7
                 self.O_value[1] = 11 + 7
-        print("Your  Opponent's value is  ", self.O_value)
+        
 
     def luck_computation(self):
         i = 0
